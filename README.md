@@ -6,33 +6,24 @@ Lightweight server monitoring tool built in Bash that generates automated HTML d
 
 Collects:
 
-Hostname, user, date, uptime
-
-CPU usage
-
-Memory usage
-
-Root disk usage
+* Hostname, user, date, uptime
+* CPU usage
+* Memory usage
+* Root disk usage
 
 Lists:
 
-Top 10 largest files
-
-Top 10 CPU-consuming processes
-
-⚠️ Alert when disk usage exceeds 80%
+* Top 10 largest files
+* Top 10 CPU-consuming processes
+* ⚠️ Alert when disk usage exceeds 80%
 
 📊 Generates:
 
-HTML dashboard report
-
-JSON structured output
-
-🔄 Automatically deletes reports older than 30 days
-
-🔐 Automatic Git commit & push via SSH
-
-⏰ Designed to run every 2 hours using cron
+* HTML dashboard report
+* JSON structured output
+* 🔄 Automatically deletes reports older than 30 days
+* 🔐 Automatic Git commit & push via SSH
+* ⏰ Designed to run every 2 hours using cron
 
 📂 Project Structure
 ```
